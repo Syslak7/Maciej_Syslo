@@ -33,7 +33,7 @@ void loop()
   obecny = digitalRead(start);
   if(obecny != poprzedni)
   {
-    delay(10);
+    delay(15);
     ponownyOdczyt = digitalRead(start);
     if(ponownyOdczyt == obecny && obecny == HIGH)
     {
